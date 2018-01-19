@@ -1,0 +1,192 @@
+/* background begin  */
+
+body {
+    background: url(background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+}
+
+/* background end */
+
+/* modal begin */
+
+#wrapper {
+  margin: auto;
+  text-align: center;
+  margin-top: 20%;
+  margin-left: 38%;
+  display: none;
+  background-color: grey;
+  width: 350px;
+  height: 200px;
+  background: url(boxBack.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   color: white;
+   position: fixed;
+   z-index: 9999;
+}
+
+/* close button begin */
+
+#close {
+  margin-right: -300px;
+  margin-top: 10px;
+}
+
+/* close button end  */
+
+/* email input edit begin */
+
+#in1 {
+  margin-left: 20px;
+}
+
+/* email input edit end */
+
+/* create account agree button begin */
+
+#agree {
+  margin-top: 20px;
+}
+
+/* create account agree button end */
+
+/* modal end */
+
+/* heading edit begin */
+
+#selling {
+  color: white;
+  margin: 0;
+  text-align: center;
+  background: url(banner.jpg);
+  background-size: contain;
+  height: 100px;
+  font-size: 50pt;
+}
+
+#contact {
+  color: white;
+  margin: 0;
+  position: absolute;
+  left: 700px;
+  top: 80px;
+}
+
+/* heading edit end */
+
+/* items on sale begin */
+
+/* item1 begin */
+
+.item1 {
+  background: url(bmw.jpg);
+  height: 290px;
+  width: 480px;
+  position: absolute;
+  z-index: 0;
+  left: 40px;
+  top: 150px;
+}
+
+#buy1 {
+  position: absolute;
+  left: 200px;
+  top: 250px;
+}
+
+/* item1 end */
+
+/* item2 begin */
+
+.item2 {
+  background: url(audi.jpg);
+  height: 290px;
+  width: 480px;
+  position: absolute;
+  z-index: 0;
+  top: 150px;
+  right: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#buy2 {
+  position: absolute;
+  left: 200px;
+  top: 250px;
+}
+
+/* item2 end */
+
+/* item3 begin */
+.item3 {
+  background: url(car.jpg);
+  height: 290px;
+  width: 480px;
+  position: absolute;
+  z-index: 0;
+  top: 550px;
+  left: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#buy3 {
+  position: absolute;
+  left: 200px;
+  top: 250px;
+}
+
+/* item3 end */
+
+/* item4 begin */
+
+.item4 {
+  background: url(lambo.jpg);
+  height: 290px;
+  width: 480px;
+  position: absolute;
+  z-index: 0;
+  top: 550px;
+  right: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#buy4 {
+  position: absolute;
+  left: 200px;
+  top: 250px;
+}
+
+/* item4 end */
+
+/* item5 begin */
+
+.item5 {
+  background: url(bugatti.jpg);
+  height: 290px;
+  width: 480px;
+  position: absolute;
+  z-index: 0;
+  top: 300px;
+  right: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#buy5 {
+  position: absolute;
+  left: 200px;
+  top: 250px;
+}
+
+/* item5 end */
+
+/* items on sale end */

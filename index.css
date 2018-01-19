@@ -1,3 +1,5 @@
+/* background begin  */
+
 body {
     background: url(background.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -5,6 +7,10 @@ body {
      -o-background-size: cover;
      background-size: cover;
 }
+
+/* background end */
+
+/* modal begin */
 
 #wrapper {
   margin: auto;
@@ -25,20 +31,34 @@ body {
    z-index: 9999;
 }
 
+/* close button begin */
+
 #close {
   margin-right: -300px;
   margin-top: 10px;
 }
 
+/* close button end  */
+
+/* email input edit begin */
+
 #in1 {
   margin-left: 20px;
 }
 
+/* email input edit end */
 
+/* create account agree button begin */
 
 #agree {
   margin-top: 20px;
 }
+
+/* create account agree button end */
+
+/* modal end */
+
+/* heading edit begin */
 
 #selling {
   color: white;
@@ -58,8 +78,11 @@ body {
   top: 80px;
 }
 
-.purchase {
-}
+/* heading edit end */
+
+/* items on sale begin */
+
+/* item1 begin */
 
 .item1 {
   background: url(bmw.jpg);
@@ -76,6 +99,10 @@ body {
   left: 200px;
   top: 250px;
 }
+
+/* item1 end */
+
+/* item2 begin */
 
 .item2 {
   background: url(audi.jpg);
@@ -95,6 +122,9 @@ body {
   top: 250px;
 }
 
+/* item2 end */
+
+/* item3 begin */
 .item3 {
   background: url(car.jpg);
   height: 290px;
@@ -112,6 +142,10 @@ body {
   left: 200px;
   top: 250px;
 }
+
+/* item3 end */
+
+/* item4 begin */
 
 .item4 {
   background: url(lambo.jpg);
@@ -131,6 +165,10 @@ body {
   top: 250px;
 }
 
+/* item4 end */
+
+/* item5 begin */
+
 .item5 {
   background: url(bugatti.jpg);
   height: 290px;
@@ -148,3 +186,7 @@ body {
   left: 200px;
   top: 250px;
 }
+
+/* item5 end */
+
+/* items on sale end */
